@@ -125,7 +125,7 @@ public class UserDaoImpl implements UserDao {
 		getSession().save(user);
 		return true;
 	}
-
+ 
 	@Override
 	public boolean addUserAddress(int userId, Address address) {
 		User user = this.getUserById(userId);
