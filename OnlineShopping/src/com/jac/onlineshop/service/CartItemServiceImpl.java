@@ -54,5 +54,6 @@ public class CartItemServiceImpl implements CartItemService {
 	public CartItem getCartItemById(int cartItemId) {
 		return cartItemDao.getCartItemById(cartItemId);
 	}
+	
 
 }
