@@ -148,7 +148,7 @@ public class UserDaoImpl implements UserDao {
 		getSession().save(address);
 		return true;
 	}
-
+ 
 	@Override
 	public boolean updateUserAddress(int userId, Address address) {
 		// This works whether this address belongs to this user only,
